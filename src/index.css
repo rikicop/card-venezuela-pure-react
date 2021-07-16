@@ -1,13 +1,76 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.container {
+    background-color: #bb3131;
+    border: 1.5px solid rgb(15, 15, 15);
+    width: 450px;
+    min-height: 158px;
+    padding: 10px;
+    display: flex;
+    font-family: "Helvetica", arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    border-radius: 10px;
+    
+  }
+
+  .avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 5px;
+    margin-right: 10px;
+    }
+
+.codigo{
+  color:azure;
+  font-size: 32px;
+  padding-top: 40px;
+  letter-spacing: 3px;
+  
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.mcodigo{
+  color:azure;
+  font-size: 14px;
+  padding-top: 10px;
+
 }
+
+.valid{
+  color:azure;
+  font-size: 11px;
+  margin-left: 94px;
+  line-height: 0.9;
+}
+
+.fecha{
+  float:right;
+  color:azure;
+  font-size: 21px;
+  margin-top: -19px;
+  margin-right:199px;
+  
+}
+
+.nombre{
+  color:azure;
+  font-size: 20px;
+  padding-top: 20px;
+  font-weight: bold;
+  margin-left: -55px;
+ 
+  
+}
+
+.name {
+  color: #f5f7f8;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  margin-right: 0.3em;
+  margin-left: 55px;
+  font-size: 30px;
+}
+.compa {
+  color: #f5f7f8;
+  font-size: 13px;
+}
+      
